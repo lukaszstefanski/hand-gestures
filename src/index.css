@@ -23,9 +23,24 @@ video {
 
 video {
   display: block;
-  width: 40%;
+  width: 500px;
 }
 
 p {
   font-size: 40px;
+}
+
+.playButton {
+  margin-top: 20px;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  color: #333333;
+  background-color: #f7b823;
+}
+
+.playButton:hover {
+  background-color: #333333;
+  color: #f7b823;
 }
